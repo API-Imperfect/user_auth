@@ -950,6 +950,7 @@ true posixrules
     </sequence>
     <table id="36" parent="23" name="user">
       <ObjectId>56515</ObjectId>
+      <Outdated>1</Outdated>
       <Owner>postgres</Owner>
       <StateNumber>3359</StateNumber>
     </table>
