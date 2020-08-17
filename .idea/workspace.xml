@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="48eaef5e-b854-4d22-a110-d18d3af3aea0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/user/ConfirmUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/ConfirmUser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/user/register/RegisterInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/register/RegisterInput.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/createConfirmationUrl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/createConfirmationUrl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/MyContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/MyContext.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <workItem from="1597399085856" duration="6006000" />
       <workItem from="1597436082664" duration="2935000" />
       <workItem from="1597569132731" duration="687000" />
-      <workItem from="1597648239123" duration="2186000" />
+      <workItem from="1597648239123" duration="2809000" />
     </task>
     <servers />
   </component>
