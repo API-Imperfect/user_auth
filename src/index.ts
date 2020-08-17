@@ -7,16 +7,12 @@ import session from "express-session";
 import connectRedis from "connect-redis";
 import { redis } from "./redis";
 import cors from "cors";
-import {MeResolver} from "./modules/user/Me";
-import {LoginResolver} from "./modules/user/Login";
-import {RegisterResolver} from "./modules/user/Register";
-import {ConfirmUserResolver} from "./modules/user/ConfirmUser";
 
 const main = async () => {
     await createConnection();
 
     const schema = await buildSchema({
-        resolvers: [MeResolver, LoginResolver, RegisterResolver,ConfirmUserResolver]
+        resolvers: [__dirname + "/modules/**/*.ts"],
     });
 
     const apolloServer = new ApolloServer({
@@ -34,7 +30,6 @@ const main = async () => {
             origin: "http://localhost:3000",
         })
     );
-
 
     app.use(
         session({
