@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="48eaef5e-b854-4d22-a110-d18d3af3aea0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/MyContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/MyContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/shared/PasswordInput.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/shared/PasswordInput.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/ChangePassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/ChangePassword.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/ConfirmUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/ConfirmUser.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/ForgotPassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/ForgotPassword.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Login.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Login.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Logout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Logout.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Me.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Me.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/user/Register.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/user/Register.resolver.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +67,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,json}" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -58,21 +86,38 @@
       <workItem from="1597399085856" duration="6006000" />
       <workItem from="1597436082664" duration="2935000" />
       <workItem from="1597569132731" duration="687000" />
-      <workItem from="1597648239123" duration="2809000" />
+      <workItem from="1597648239123" duration="6048000" />
+      <workItem from="1597743742152" duration="3793000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597401874996">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1597401874996" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1597399342444">
+    <state x="440" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597653076461">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1597399342444" />
+    <state x="440" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1597653076461" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1597747506751">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1597747506751" />
   </component>
 </project>
